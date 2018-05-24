@@ -1,1 +1,1 @@
-create a symlink with slscript.sh to link this folder to home
+clone this repo to home and run slscript.sh to create symlinks of .vimrc and .tmux.conf to home

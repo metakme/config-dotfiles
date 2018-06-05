@@ -13,3 +13,4 @@ git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/vim/bundle/
 git clone https://github.com/leafgarland/typescript-vim.git ~/vim/bundle/typescriptvim
 git clone git://github.com/digitaltoad/vim-pug.git ~/vim/bundle/vim-pug
 git clone git://github.com/OrangeT/vim-csharp.git ~/vim/bundle/vim-csharp
+git clone https://github.com/junegunn/vim-easy-align.git ~/vim/bundle/vim-easy-align

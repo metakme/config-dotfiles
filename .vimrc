@@ -43,3 +43,8 @@ if has("mouse_sgr")
 else
   set ttymouse=xterm2
 end
+
+
+"vim-easy-align
+xmap ga <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)

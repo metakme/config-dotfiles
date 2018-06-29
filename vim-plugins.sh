@@ -14,3 +14,6 @@ git clone https://github.com/leafgarland/typescript-vim.git ~/vim/bundle/typescr
 git clone git://github.com/digitaltoad/vim-pug.git ~/vim/bundle/vim-pug
 git clone git://github.com/OrangeT/vim-csharp.git ~/vim/bundle/vim-csharp
 git clone https://github.com/junegunn/vim-easy-align.git ~/vim/bundle/vim-easy-align
+git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity
+git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/vim-syntastic
+git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar

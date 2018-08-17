@@ -34,13 +34,20 @@ noremap <C-h> 5h
 noremap <C-l> 5l
 noremap <CR> i<CR><ESC>
 noremap <Space> i<Space><ESC>l
-
+"save
+noremap <Leader><CR> <ESC>:w<CR>
+"copy selection to xclip clipboard
+noremap <Leader>l :'<,'> w !xclip -selection clipboard <CR>
 "nerd toggle
 noremap <Leader>n :NERDTreeToggle <CR>
-
 "tagbar
 noremap <Leader>k :TagbarToggle <CR>
+"leave insert
+imap <Leader>; <ESC>
+"autocomplete
+imap <Leader>p <C-p>
 
+set pastetoggle=<F10>
 set tags=./tags;
 
 let g:airline_theme='solarized'

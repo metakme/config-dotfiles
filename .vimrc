@@ -55,7 +55,7 @@ packadd! matchit
 
 set mouse=a
 
-autocmd BufNewFile,BufRead *.handlebars set syntax=html
+"autocmd BufNewFile,BufRead *.handlebars\|*.hbs set syntax=html
 
 if has("mouse_sgr")
   set ttymouse=sgr

@@ -1,2 +1,2 @@
-ln -s ~/confing-dotfiles/.vimrc ~/
-ln -s ~/confing-dotfiles/.tmux.conf ~/
+ln -s ~/config-dotfiles/.vimrc ~/
+ln -s ~/config-dotfiles/.tmux.conf ~/

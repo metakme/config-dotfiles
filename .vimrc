@@ -26,6 +26,10 @@ set expandtab
 set noshiftround
 autocmd FileType solidity setlocal shiftwidth=4 tabstop=4
 
+set autoread
+au CursorHold,CursorHoldI * checktime
+au FocusGained,BufEnter * :checktime
+
 set cursorline
 
 noremap <C-j> 5j
@@ -63,6 +67,8 @@ else
   set ttymouse=xterm2
 end
 
+"ctrl-p
+let g:ctrlp_max_files=0
 
 "vim-easy-align
 xmap ga <Plug>(EasyAlign)

@@ -18,3 +18,6 @@ git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/vim-syntastic
 git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 git clone git://github.com/mustache/vim-mustache-handlebars.git ~/.vim/bundle/mustache
+git clone https://github.com/mxw/vim-jsx.git ~/.vim/bundle/vim-jsx
+git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
+git clone https://github.com/posva/vim-vue.git ~/.vim/bundle/vim-vue

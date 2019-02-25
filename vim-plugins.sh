@@ -21,3 +21,7 @@ git clone git://github.com/mustache/vim-mustache-handlebars.git ~/.vim/bundle/mu
 git clone https://github.com/mxw/vim-jsx.git ~/.vim/bundle/vim-jsx
 git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
 git clone https://github.com/posva/vim-vue.git ~/.vim/bundle/vim-vue
+#needs npm instal in dir
+git clone https://github.com/ternjs/tern_for_vim.git ~/.vim/bundle/tern_for_vim
+#needs npm instal in dir
+git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe

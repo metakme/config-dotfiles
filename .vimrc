@@ -9,6 +9,7 @@ syntax on
 let g:solarized_termtrans=1
 set background=dark
 colorscheme solarized
+"colorscheme nova
 set number
 set ruler
 set visualbell
@@ -68,6 +69,7 @@ else
 end
 
 "ctrl-p
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
 let g:ctrlp_max_files=0
 
 "vim-easy-align

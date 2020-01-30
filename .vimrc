@@ -13,6 +13,7 @@ colorscheme solarized
 set number
 set ruler
 set visualbell
+set belloff=all
 
 set autoindent
 set backspace=indent,eol,start
@@ -26,6 +27,7 @@ set softtabstop=2
 set expandtab
 set noshiftround
 autocmd FileType solidity setlocal shiftwidth=4 tabstop=4
+autocmd FileType c,cpp,java,php,js,javascript autocmd BufWritePre <buffer> %s/\s\+$//e
 
 set autoread
 au CursorHold,CursorHoldI * checktime

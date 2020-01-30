@@ -18,10 +18,13 @@ git clone https://github.com/tomlion/vim-solidity.git ~/.vim/bundle/vim-solidity
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/vim-syntastic
 git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
 git clone git://github.com/mustache/vim-mustache-handlebars.git ~/.vim/bundle/mustache
-git clone https://github.com/mxw/vim-jsx.git ~/.vim/bundle/vim-jsx
+# the original repo has a bug so temp using a fork from richin13
+#git clone https://github.com/mxw/vim-jsx.git ~/.vim/bundle/vim-jsx
+git clone https://github.com/richin13/vim-jsx.git ~/.vim/bundle/vim-jsx
 git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
 git clone https://github.com/posva/vim-vue.git ~/.vim/bundle/vim-vue
 #needs npm instal in dir
 git clone https://github.com/ternjs/tern_for_vim.git ~/.vim/bundle/tern_for_vim
 #needs npm instal in dir
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
+git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim

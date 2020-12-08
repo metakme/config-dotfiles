@@ -27,7 +27,7 @@ set softtabstop=2
 set expandtab
 set noshiftround
 autocmd FileType solidity setlocal shiftwidth=4 tabstop=4
-autocmd FileType c,cpp,java,php,js,javascript autocmd BufWritePre <buffer> %s/\s\+$//e
+autocmd FileType c,cpp,java,php,js,javascript,jsx,ts autocmd BufWritePre <buffer> %s/\s\+$//e
 
 set autoread
 au CursorHold,CursorHoldI * checktime
@@ -49,10 +49,16 @@ noremap <Leader>l :'<,'> w !xclip -selection clipboard <CR>
 noremap <Leader>n :NERDTreeToggle <CR>
 "tagbar
 noremap <Leader>k :TagbarToggle <CR>
-"leave insert
+"leave insert "escape shortcut
+imap <Leader><Leader> <ESC>
 imap <Leader>; <ESC>
+
 "autocomplete
 imap <Leader>p <C-p>
+"ycm format
+noremap <Leader>[ :YcmCompleter Format <CR>
+noremap <Leader>= :YcmCompleter GoTo <CR>
+noremap <Leader>- :YcmCompleter FixIt <CR>
 
 set pastetoggle=<F10>
 set tags=./tags;

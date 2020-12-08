@@ -10,7 +10,10 @@ git clone https://github.com/vim-airline/vim-airline-themes.git ~/.vim/bundle/vi
 git clone https://github.com/ctrlpvim/ctrlp.vim.git ~/.vim/bundle/ctrlp.vim
 git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javascript
 git clone --depth=1 https://github.com/vim-syntastic/syntastic.git ~/.vim/bundle/syntastic
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescriptvim
+# git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescriptvim
+# https://github.com/ianks/vim-tsx.git
+# git clone https://github.com/peitalin/vim-jsx-typescript ~/.vim/bundle/vim-jsx-typescript
+git clone https://github.com/HerringtonDarkholme/yats.vim.git ~/.vim/bundle/yatsvim
 git clone git://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
 git clone git://github.com/OrangeT/vim-csharp.git ~/.vim/bundle/vim-csharp
 git clone https://github.com/junegunn/vim-easy-align.git ~/.vim/bundle/vim-easy-align
@@ -23,8 +26,8 @@ git clone git://github.com/mustache/vim-mustache-handlebars.git ~/.vim/bundle/mu
 git clone https://github.com/richin13/vim-jsx.git ~/.vim/bundle/vim-jsx
 git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
 git clone https://github.com/posva/vim-vue.git ~/.vim/bundle/vim-vue
-#needs npm instal in dir
-git clone https://github.com/ternjs/tern_for_vim.git ~/.vim/bundle/tern_for_vim
+# needs npm instal in dir - not used anymore
+# git clone https://github.com/ternjs/tern_for_vim.git ~/.vim/bundle/tern_for_vim
 #needs npm instal in dir
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
-git clone https://github.com/leafgarland/typescript-vim.git ~/.vim/bundle/typescript-vim
+git clone https://github.com/styled-components/vim-styled-components/ ~/.vim/bundle/vim-styled-components

@@ -5,6 +5,8 @@ set nocompatible
 filetype plugin indent on
 
 syntax on
+autocmd BufEnter * syntax sync fromstart
+syntax sync maxlines=20
 "let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 set background=dark

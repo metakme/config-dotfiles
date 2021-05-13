@@ -46,7 +46,10 @@ noremap <Space> i<Space><ESC>l
 "save
 noremap <Leader><CR> <ESC>:w<CR>
 "copy selection to xclip clipboard
-noremap <Leader>l :'<,'> w !xclip -selection clipboard <CR>
+"noremap <Leader>l :'<,'> w !xclip -selection clipboard <CR>
+"vmap <Leader>l y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
+vmap <Leader>l y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
+
 "nerd toggle
 noremap <Leader>n :NERDTreeToggle <CR>
 "tagbar

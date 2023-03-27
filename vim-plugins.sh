@@ -29,3 +29,6 @@ git clone https://github.com/posva/vim-vue.git ~/.vim/bundle/vim-vue
 #needs npm instal in dir
 git clone https://github.com/Valloric/YouCompleteMe.git ~/.vim/bundle/YouCompleteMe
 git clone https://github.com/styled-components/vim-styled-components/ ~/.vim/bundle/vim-styled-components
+git clone https://github.com/prettier/vim-prettier/ ~/.vim/bundle/vim-prettier
+git clone https://github.com/azakus/vim-webcomponents
+git clone https://github.com/jparise/vim-graphql/ ~/.vim/bundle/vim-graphql

@@ -8,7 +8,7 @@ syntax on
 autocmd BufEnter * syntax sync fromstart
 syntax sync maxlines=20
 "let g:solarized_termcolors=256
-let g:solarized_termtrans=1
+"let g:solarized_termtrans=1
 set background=dark
 colorscheme solarized
 "colorscheme nova
@@ -48,7 +48,8 @@ noremap <Leader><CR> <ESC>:w<CR>
 "copy selection to xclip clipboard
 "noremap <Leader>l :'<,'> w !xclip -selection clipboard <CR>
 "vmap <Leader>l y:call system("xclip -i -selection clipboard", getreg("\""))<CR>:call system("xclip -i", getreg("\""))<CR>
-vmap <Leader>l y: call system("xclip -i -selection clipboard", getreg("\""))<CR>
+"vmap <Leader>l y:call system("xclip -i -selection clipboard", getreg("\""))<CR>
+vnoremap <silent> <leader>y :<CR>:let @a=@" \| execute "normal! vgvy" \| let res=system("pbcopy", @") \| let @"=@a<CR>
 
 "nerd toggle
 noremap <Leader>n :NERDTreeToggle <CR>
@@ -82,7 +83,7 @@ else
 end
 
 "ctrl-p
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git'
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|dist'
 let g:ctrlp_max_files=0
 
 "vim-easy-align
